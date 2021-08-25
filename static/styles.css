@@ -34,6 +34,7 @@ body{
 .message-box{
  border-style: solid;
   border-width: 5px;
+  border-color:transparent;
   border-image: linear-gradient(45deg, #d9ad3d, #d99d3d, #5ce0a3, #5cdce0, #5caee0, #5c8fe0, #765ce0, #d199a7) 1;
   animation: change-gradient 10s ease-in-out infinite;
   position: relative;
@@ -179,4 +180,12 @@ margin:5vh 0 0 0 !important;
 .gif1{
 	width: 35%;
     	margin: 10px 0;
+}
+@media only screen and (min-width: 600px) {
+.message-box{
+ height:40vh;
+  width:90%;
+
+}
+
 }
